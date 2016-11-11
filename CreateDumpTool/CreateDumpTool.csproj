@@ -43,9 +43,11 @@
   <ItemGroup>
     <Compile Include="DbgHelp\DbgHelp_x64.cs" />
     <Compile Include="DbgHelp\DbgHelp_x86.cs" />
+    <Compile Include="DbgHelp\kernel32.cs" />
     <Compile Include="DumpConstants.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistryManager.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

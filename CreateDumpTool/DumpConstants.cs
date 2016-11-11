@@ -34,6 +34,24 @@ namespace CreateDumpTool
             MiniDumpWithTokenInformation = 0x00040000,
         }
 
+        internal struct SYSTEM_INFO
+        {
+            //public uint dwOemId;
+            public ushort wProcessorArchitecture;
+            public ushort wReserved;
+            public uint dwPageSize;
+            public uint lpMinimumApplicationAddress;
+            public uint lpMaximumApplicationAddress;
+            public uint dwActiveProcessorMask;
+            public uint dwNumberOfProcessors;
+            public uint dwProcessorType;
+            public uint dwAllocationGranularity;
+            public uint dwProcessorLevel;
+            public uint dwProcessorRevision;
+        }
+
+       
+
         public const string DATETYPEDefault = "yyyyMMdd_HHmmss";
     }
 }
