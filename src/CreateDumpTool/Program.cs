@@ -13,7 +13,7 @@ namespace CreateDumpTool
         private static string DumpFolder = string.Empty;
         static void Main(string[] args)
         {
-            ProcessTheParameters(5188, @"C:\Justin\dump", true);
+            ProcessTheParameters(8888, @"C:\dump", true);
 
         }
 
